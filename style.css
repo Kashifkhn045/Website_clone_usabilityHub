@@ -217,6 +217,10 @@ header {
     text-align: center;
 }
 
+.feature-card img {
+    width: 40px;
+}
+
 /* big-featuer sectionn */
 
 .big-feature-section {
