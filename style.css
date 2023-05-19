@@ -388,11 +388,63 @@ header {
 }
 
 .plane-section-img-detail {
-    z-index: 999;
-    width: 45%;
-    background: #e74694;
+    position: relative;
+    width: 50%;
 }
 
+.plane-section-img {
+    background-image: url(assets/asset\ 40.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    min-height: 450px;
+    width: 100%;
+}
+
+.plane-section-sub-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(assets/asset\ 41.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plane-section-price-start {
+    color: var(--primary-text-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.plane-section-dollar {
+    font-family: Averta PE,sans-serif;
+    color: #8ba6c0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.plane-section-price {
+    color: #2294ed;
+    margin-left: -2px;
+    margin-right: 8px;
+    font-family: Averta PE,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.plane-section-price-end {
+    margin-top: 10px;
+    font-weight: 600;
+}
 
 /* cta-section */
 
